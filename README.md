@@ -7,7 +7,7 @@
 
 > **Bienvenido a mi portafolio profesional.** Este proyecto no es solo una muestra de mi trabajo, sino una demostración técnica de desarrollo web moderno enfocado en rendimiento, experiencia de usuario (UX) y código limpio.
 
-🌐 **Demo en vivo:** [Tu Link de Netlify Aquí](javier-cuevas-dev.netlify.app)
+🌐 **Demo en vivo:** [Portfolio](https://javier-cuevas-dev.netlify.app/)
 
 ---
 
