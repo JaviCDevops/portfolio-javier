@@ -1,36 +1,88 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 👨‍💻 Javier Cuevas Pérez | Full Stack Developer Portfolio
 
-## Getting Started
+[![Netlify Status](https://api.netlify.com/api/v1/badges/f7f87c13-429e-427e-ada2-abb27e600c70/deploy-status)](https://app.netlify.com/projects/javier-cuevas-dev/deploys)
+![Next.js](https://img.shields.io/badge/Next.js-14-black?style=for-the-badge&logo=next.js)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
-First, run the development server:
+> **Bienvenido a mi portafolio profesional.** Este proyecto no es solo una muestra de mi trabajo, sino una demostración técnica de desarrollo web moderno enfocado en rendimiento, experiencia de usuario (UX) y código limpio.
+
+🌐 **Demo en vivo:** [Tu Link de Netlify Aquí](javier-cuevas-dev.netlify.app)
+
+---
+
+## ✨ Características Principales
+
+Este portafolio ha sido construido desde cero utilizando las últimas tecnologías del estándar actual:
+
+* **⚡ Next.js 14 (App Router):** Aprovechando *Server Components* para un rendimiento óptimo y SEO mejorado.
+* **🎨 Diseño UI Moderno:** Estilizado con **Tailwind CSS** y un sistema de diseño "Dark Mode" personalizado.
+* **🚀 Animaciones CSS Puro:** Fondo estelar con efecto paralaje (Parallax Star Background) sin uso de librerías pesadas de JS.
+* **📱 Totalmente Responsivo:** Adaptable a móviles, tablets y escritorio.
+* **📄 Data-Driven:** Todo el contenido (experiencia, proyectos) se gestiona desde archivos de datos tipados (`/src/data`), facilitando la actualización.
+
+---
+
+## 🛠️ Stack Tecnológico
+
+| Categoría | Tecnologías |
+| :--- | :--- |
+| **Frontend Core** | React 18, Next.js 14, TypeScript |
+| **Estilos** | Tailwind CSS, CSS Modules (Animaciones) |
+| **Iconos** | Lucide React |
+| **Despliegue** | Netlify / Vercel |
+| **Control de Versiones** | Git & GitHub |
+
+---
+
+## 📂 Estructura del Proyecto
+
+El proyecto sigue una arquitectura escalable y ordenada:
 
 ```bash
+src/
+├── app/                 # App Router (Páginas y Layouts)
+│   ├── projects/        # Páginas dinámicas de detalles de proyectos
+│   ├── globals.css      # Estilos globales y animaciones
+│   └── layout.tsx       # Configuración SEO y Wrappers
+├── components/          # Componentes reutilizables (StarBackground, etc.)
+├── data/                # Datos estáticos (CV, Skills, Proyectos)
+└── public/              # Archivos estáticos (PDFs, imágenes)
+🚀 Instalación y Uso Local
+Si deseas clonar y correr este proyecto en tu máquina local:
+
+Clonar el repositorio:
+
+Bash
+
+git clone [https://github.com/JaviCDevops/portfolio-javier.git](https://github.com/JaviCDevops/portfolio-javier.git)
+cd portfolio-javier
+Instalar dependencias:
+
+Bash
+
+npm install
+Correr el servidor de desarrollo:
+
+Bash
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Abre tu navegador en http://localhost:3000.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+💡 Proyectos Destacados (Case Studies)
+Dentro del portafolio encontrarás detalles técnicos profundos sobre mis desarrollos principales:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Sistema ERP de Gestión (MERN Stack): Solución completa para digitalización de procesos, facturación y generación de contratos PDF.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Plataforma Corporativa (Next.js): Sitio de alto rendimiento enfocado en conversión de leads y optimización Core Web Vitals.
 
-## Learn More
+📬 Contacto
+¿Te interesa mi perfil o quieres colaborar?
 
-To learn more about Next.js, take a look at the following resources:
+LinkedIn: Javier Cuevas Pérez
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Email: javiercuevasperez2003@gmail.com
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+GitHub: @JaviCDevops
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Developed with ❤️ by Javier Cuevas.
