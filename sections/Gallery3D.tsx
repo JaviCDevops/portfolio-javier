@@ -52,7 +52,7 @@ export function Gallery3D() {
             Proyectos
           </h2>
           <p className="mx-auto mt-3 max-w-2xl text-sm text-muted sm:text-base">
-            Explora mis proyectos más relevantes. Haz clic en cada forma para conocer los
+            Explora mis proyectos más relevantes. Haz clic en cada logo para conocer los
             detalles, tecnologías y logros.
           </p>
         </motion.div>
