@@ -11,9 +11,9 @@ export default function Home() {
       <Navigation />
       <main className="relative flex-1 overflow-x-hidden bg-background">
         <Hero />
+        <Experience />
         <Gallery3D />
         <Skills />
-        <Experience />
         <Contact />
       </main>
     </>

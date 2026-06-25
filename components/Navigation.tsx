@@ -6,9 +6,9 @@ import { Code2, Menu, X } from "lucide-react";
 
 const navItems = [
   { label: "Inicio", target: "hero" },
+  { label: "Experiencia", target: "experience" },
   { label: "Proyectos", target: "gallery" },
   { label: "Habilidades", target: "skills" },
-  { label: "Experiencia", target: "experience" },
   { label: "Contacto", target: "contact" },
 ];
 
