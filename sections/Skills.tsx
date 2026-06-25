@@ -26,11 +26,11 @@ export function Skills() {
     () =>
       isMobile
         ? [
-            [-2, 1.4, 0],
-            [0, 1.4, 0],
-            [2, 1.4, 0],
-            [-1, -1, 0],
-            [1, -1, 0],
+            [-2.4, 1.6, 0],
+            [0, 1.6, 0],
+            [2.4, 1.6, 0],
+            [-1.2, -1.3, 0],
+            [1.2, -1.3, 0],
           ]
         : [
             [-3, 1, 0],
@@ -86,7 +86,7 @@ export function Skills() {
       </div>
 
       <div className="h-[75vh] w-full md:h-[80vh]">
-        <Scene3D cameraPosition={[0, 0, isMobile ? 10 : 9]} fov={isMobile ? 55 : 45}>
+        <Scene3D cameraPosition={[0, 0, isMobile ? 11 : 9]} fov={isMobile ? 58 : 45}>
           <OrbitControls
             enablePan={false}
             enableZoom={false}

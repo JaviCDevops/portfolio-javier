@@ -19,6 +19,8 @@ export function SkillOrb({ position, color, name, icon: Icon, onClick, isActive 
   const groupRef = useRef<THREE.Group>(null);
   const [hovered, setHovered] = useState(false);
   const isMobile = useIsMobile();
+  const hitRadius = isMobile ? 1.5 : 1.1;
+  const orbRadius = isMobile ? 0.85 : 0.7;
 
   useFrame(({ clock }) => {
     if (groupRef.current) {
@@ -60,15 +62,15 @@ export function SkillOrb({ position, color, name, icon: Icon, onClick, isActive 
       <Html center transform={false} zIndexRange={[1, 0]}>
         <div className="pointer-events-none flex flex-col items-center justify-center gap-1 sm:gap-2">
           <div
-            className="flex h-11 w-11 items-center justify-center rounded-full border border-white/10 bg-surface-elevated/80 shadow-lg backdrop-blur-sm transition-all duration-200 sm:h-14 sm:w-14"
+            className="flex h-12 w-12 items-center justify-center rounded-full border border-white/10 bg-surface-elevated/80 shadow-lg backdrop-blur-sm transition-all duration-200 sm:h-14 sm:w-14"
             style={{
               transform: hovered || isActive ? "scale(1.2)" : "scale(1)",
               boxShadow: hovered || isActive ? `0 0 24px ${color}60` : "none",
             }}
           >
-            <Icon className="h-6 w-6 sm:h-8 sm:w-8" style={{ color }} />
+            <Icon className="h-7 w-7 sm:h-8 sm:w-8" style={{ color }} />
           </div>
-          <span className="max-w-[80px] truncate rounded-full bg-background/80 px-1.5 py-0.5 text-[9px] font-medium text-foreground backdrop-blur-sm sm:max-w-none sm:px-2 sm:text-[10px] sm:whitespace-nowrap">
+          <span className="max-w-[90px] truncate rounded-full bg-background/80 px-1.5 py-0.5 text-[10px] font-medium text-foreground backdrop-blur-sm sm:max-w-none sm:px-2 sm:text-[10px] sm:whitespace-nowrap">
             {name}
           </span>
         </div>
