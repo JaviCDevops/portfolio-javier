@@ -1,4 +1,4 @@
-# Portfolio Javier Cuevas Pérez
+# Portfalio Javier Cuevas Pérez
 
 Portafolio personal de **Javier Cuevas Pérez**, Ingeniero en Informática y Full Stack Developer. Una experiencia web inmersiva construida con **Next.js**, **React Three Fiber** y **Tailwind CSS**, que presenta proyectos, habilidades técnicas y experiencia profesional en un entorno 3D interactivo.
 
