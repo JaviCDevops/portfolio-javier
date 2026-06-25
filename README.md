@@ -1,36 +1,92 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Portfolio Javier Cuevas Pérez
 
-## Getting Started
+Portafolio personal de **Javier Cuevas Pérez**, Ingeniero en Informática y Full Stack Developer. Una experiencia web inmersiva construida con **Next.js**, **React Three Fiber** y **Tailwind CSS**, que presenta proyectos, habilidades técnicas y experiencia profesional en un entorno 3D interactivo.
 
-First, run the development server:
+![Portfolio Preview](./public/step-therapy-logo.png)
+
+## ✨ Características
+
+- **Diseño 3D inmersivo**: fondo estrellado y escenas interactivas con React Three Fiber.
+- **Galería de proyectos 3D**: tarjetas flotantes con logos reales de las empresas.
+- **Visualización de habilidades**: orbes 3D clickeables que revelan tecnologías por categoría.
+- **Totalmente responsive**: adaptado para escritorio, tablet y dispositivos móviles.
+- **Navegación suave**: scroll animado entre secciones.
+- **Tema azul lunar**: paleta de colores oscura con acentos cyan y violeta.
+
+## 🛠 Stack tecnológico
+
+- **Framework**: [Next.js 16](https://nextjs.org/)
+- **Lenguaje**: [TypeScript](https://www.typescriptlang.org/)
+- **Estilos**: [Tailwind CSS v4](https://tailwindcss.com/)
+- **3D**: [React Three Fiber](https://docs.pmnd.rs/react-three-fiber) + [Drei](https://docs.pmnd.rs/drei)
+- **Animaciones**: [Framer Motion](https://www.framer.com/motion/)
+- **Iconos**: [Lucide React](https://lucide.dev/) + [Simple Icons](https://simpleicons.org/)
+
+## 🚀 Cómo ejecutar localmente
+
+1. Clona el repositorio:
+
+   ```bash
+   git clone https://github.com/JaviCDevops/portfolio-javier.git
+   cd portfolio-javier
+   ```
+
+2. Instala las dependencias:
+
+   ```bash
+   npm install
+   ```
+
+3. Inicia el servidor de desarrollo:
+
+   ```bash
+   npm run dev
+   ```
+
+4. Abre [http://localhost:3000](http://localhost:3000) en tu navegador.
+
+## 📦 Build para producción
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm run build
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+El sitio estático se genera en la carpeta `dist/`.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Para servir la build localmente:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npx serve dist -l 3000
+```
 
-## Learn More
+## 🗂 Estructura del proyecto
 
-To learn more about Next.js, take a look at the following resources:
+```
+.
+├── app/                  # Rutas y layout de Next.js
+├── components/           # Componentes reutilizables (3D, navegación, tarjetas)
+├── sections/             # Secciones principales de la página
+├── hooks/                # Hooks personalizados
+├── lib/                  # Datos e información personal
+├── public/               # Assets estáticos (logos, favicon)
+├── next.config.ts        # Configuración de Next.js
+└── README.md             # Este archivo
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🎨 Personalización
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+La información personal (nombre, bio, proyectos, habilidades, contacto) se encuentra centralizada en:
 
-## Deploy on Vercel
+```bash
+lib/data.ts
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Edita ese archivo para actualizar tu perfil, experiencia laboral, educación, certificaciones y enlaces de contacto.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📄 Licencia
+
+Este proyecto es de uso personal. Puedes inspirarte en la estructura, pero por favor no copies el contenido textual ni los datos personales.
+
+---
+
+Desarrollado con 💙 por [Javier Cuevas Pérez](https://github.com/JaviCDevops)
